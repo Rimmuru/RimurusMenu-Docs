@@ -1,5 +1,9 @@
-Rimurus Menu is a popular script for 2Take1Menu written in lua <br>
-Here lays all the features and releases of Rimurus Menu
+Rimurus Menu is a popular script for 2Take1Menu written in lua <br><br>
+Rimuurs Menu is the only publicly released 2take1 script that has its own custom user interface
+
+## Preview
+[![GTA5-txpbaiw-SGn.png](https://i.postimg.cc/28F5kdCC/GTA5-txpbaiw-SGn.png)](https://postimg.cc/pprvkF9S)
+<br>
 
 ## Player
 
@@ -31,5 +35,6 @@ Dust Gun  | Cause dust streams to appear when you shoot
 
 Name  | Description
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Modded Colours  | sub menu containing a whole host of custom colours
+Save Current Colour  | save your custom vehicle colour to modded colours submenu
+garage vehicles  | sub menu containing all the vehicles stored in your garages
