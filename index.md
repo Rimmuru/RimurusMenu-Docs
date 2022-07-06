@@ -231,38 +231,9 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-## Latest Release - v2.0.0
-Complete UI overhaul <br>
-- New Features
-    - Added Controller Support
-    - Added controller support toggle to settings
-    - Added ui theme support
-    - Added load ui profiles
-    - Added save current ui profile
-    - Added host kick to "kick" if host
-    - Added value slider to wallet options
-    - Added alpha slider 
-    - Added headers 
-    - Added headers slider
-    - Added max options setting
-    - Added ped gun
-    - Added dildo gun
-    - Added paint gun
-    - Added money gun
-    - Added teleport gun
-    - Added Vehicle Opacity
-    - Added vehicle no grip
-    - Added vehicle gravity
-    - Added modify top speed
-    - Added xenon rgb
-    - Added Dirt Level
-    - Added rgb neons
-    - Added Save current vehicle colour
+## Latest Release - v2.0.1
+# Changes
+- fixed script not loading if no banners are installed
+- removed left over testing option
+- at the request of people the main files are now luac
 
-
-- Improvements
-    - Moved cage player to trolling
-    - renamed Crash to SE Crash
-    - renamed Crash v2 to Next Gen Crash
-    - renamed Sync Mismatch Crash to Sound Crash
-    - renamed wallet to money manager - stolen from jhowkNx :p
