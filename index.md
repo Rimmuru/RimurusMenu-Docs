@@ -14,6 +14,10 @@ Field Of View | Adjusts how wide your vision is
 Player Opacity | Change your peds opacity. 0% will be fully invisible
 Rest Player Opacity | Reset the above back to default (100%)
 Become A Cop | You will report your own crimes, get a generic cop voice, get a cop-vision-cone on the radar, and you will be unable to shoot at other cops. SWAT and Army will still shoot at you.
+Tiny Player | Embrace the small King that you are
+Reduced Collision | Disables collisions for vehicles and some other objects
+2k Money Drop | Hack into R* secret Facebook to steal all the personal info, use this to commit identity theft, talk with their family on social media, find out about your new self, use all this new info to guess the password to their online banking, transfer yourself all the money, easiest 2k you will ever earn. (also spawns all the R* devs on you for you to pickpocket)
+Alternative for 2k money drop | Spawns all of the R* devs for you to rob, get all that money back you spent on new accounts
 
 ## Weapon
 
@@ -40,7 +44,6 @@ Name | Description
 Modded Colours | Sub menu containing a whole host of custom colours
 Save Current Colour | Save your custom vehicle colour to "Modded Colours" submenu
 Garage Vehicles | Sub menu containing all the vehicles stored in your garages
-Vehicle No Grip | Slide your way into the battle... and past it
 Vehicle Godmode | Undetected invincibilty for your cars
 Vehicle Opacity | Change your vehicles opacity. 0% will be fully invisible
 Vehicle Gravity | Adjusts the way gravity effects your car. Higher = more gravity
@@ -53,6 +56,10 @@ Store Vehicle In Garage | Allows you to save a car spawned via the menu. (Head o
 GTA4 Neons | Gives your car the bright ass neons that could be done on GTA 4
 RGB Neons | Adds neons and cycles an RGB effect 
 Exhaust Trails | You want a shit box? Add this for some flavour
+No Grip | Slide your way into the battle... and then right past it
+Instantly Exit Vehicle | Removes the hassle of having to open your door to get out
+Instantly Enter Vehicle | Removes the hassle of having to open your door to get in 
+Vehicle Reduced Collision | Remove collisions with vehicles whilst driving
 
 ## Editor
 
@@ -66,11 +73,22 @@ Peds | Spawn Ped Models
 Animals | Spawn Animal Models
 
 ## Online 
-## >> Players
+### > Players
 
 Name | Description
 ------------- | -------------
 Send SMS | Slide into the targets DM's
+
+### >> Misc Options
+
+Name | Description
+------------- | -------------
+Give Vehicle Godmode | Gives the targets car godmode
+Gift Vehicle | Gift cars to friends. Not currently possibly using 2t1's spawner
+Go Ghosted To Player | Uses the GTA function to ghost players (can prevent blamed attacks)
+Spawn Ped | Spawn a desired ped on the target
+Rain Object | Rain a desired object on the target
+Create Pickup | Create a pickup for the character
 
 ### >> Malicious Options
 
@@ -82,34 +100,6 @@ SE Crash | Crashes the player using an SE
 Next Gen Crash | Uses an invalid model to crash the target
 Sound Crash | Is it loud? Is it annoying? It's both! 
 Task Crash | Crashes the target for getting out of the car wrong
-
-### >> Misc Options
-
-Name | Description
-------------- | -------------
-Give Vehicle Godmode | Gives the targets car godmode
-Create Vehicle | Spawns an Enity XF on the target
-Gift Vehicle | Gift cars to friends. Not currently possible using 2t1's spawner
-Go Ghosted To Player | Uses the GTA function to ghost players (can prevent blamed attacks)
-Spawn Ped | Spawn a desired ped on the target
-Rain Object | Rain a desired object on the target
-Create Pickup | Create a pickup for the character
-
-### >> Script Events
-
-Name | Description
-------------- | -------------
-Destroy Personal Vehicle | Destroys the target current personal vehicle
-Vehicle Kick | Kicks the target out of their current car
-Force Into Data Breach | Forces the target into the Data Breach mission
-Force Into Severe Weather | Forces the target into the Severe Weather mission
-Force Into Work Dispute | Forces the target into the Work Dispute mission
-Force Into Loading Screen | Forces the target into an infinity loading screen
-Force Into Cayo | Forces the player to the Cayo Island
-Force Into Cutscene | Forces the player into the casino heist cutscene 
-Penthouse Invite | Invites the target into a casino penthouse
-Apartment Invite | Invites the target into an apartment
-Fake Invites | Sub menu for invalid invites to send the players
 
 ### >> Trolling Options
 
@@ -125,6 +115,31 @@ Steam Jet | Spawns a jet of steam on the player
 Cash Removed | Yoinks all their precious pennies 
 Cash Banked | For when you feel bad for yoinking their pennies
 
+### >> Teleport Options 
+
+Name | Description
+------------- | -------------
+Teleport To Player | Go say "Hi" :)
+Teleport To Player | Say "Hi" but forcefully :)
+Teleport Peds To Player | Give them some new friends, they're playing GTA so they most likely need a friend to talk to :(
+Teleport Vehicles To Player | "Give a Man a car, he'll drive for a day. Give a Man all the cars, he'll die from suffocation and never have to drive again" :)
+
+### >> Script Events
+
+Name | Description
+------------- | -------------
+Destroy Personal Vehicle | Destroys the target current personal vehicle
+Vehicle Kick | Kicks the target out of their current car
+Force Into Data Breach | Forces the target into the Data Breach mission
+Force Into Severe Weather | Forces the target into the Severe Weather mission
+Force Into Work Dispute | Forces the target into the Work Dispute mission
+Force Into Loading Screen | Forces the target into an infinity loading screen
+Force Into Cayo | Forces the player to the Cayo Island
+Force Into Cutscene | Forces the player into the casino heist cutscene 
+Penthouse Invite | Invites the target into a casino penthouse
+Apartment Invite | Invites the target into an apartment
+Invalid Invites | Sub menu for invalid invites to send the players
+
 ### > All Players
 
 Name | Description
@@ -138,9 +153,9 @@ Name | Description
 ------------- | -------------
 Force Remove Lobby | Get rid of those pesky players
 Force Lobby Into Cutscene | Force all players into the casino heist cutscene
-SE Lobby Kick | Kick the lobby with an SE
-Kick Lobby v2 | Because incase one wasnt enough
-Math Crash | Uses advanced algebra to crash players
+SE Lobby Kick | *kicks lobby*
+SE Lobby Kick V2 | Gets rid of those clingy ones
+Math Crash | Uses advanced algebra to crash their brains
 Force Lobby To Cayo | For when you want some time to yourself in the city of Los Santos
 
 ### >> Trolling Options
@@ -166,14 +181,24 @@ Transfer All Bank Cash To Wallet | You dont trust the banks and so you decide to
 Transfer All Cash To Bank | Too lazy to go to the bank so you just press this and voila
 Wallet Cash To Transfer | Select a specific amount to put back into the bank
 
-## Miscellaneous 
- 
+### > Net Event Reactions 
+
 Name | Description
 ------------- | -------------
-ESP Distance | Allows you to see how far everyone is from you
-ES[ Heart | Show your love by adding a heart around everyone
-ESP Box | Adds a box around all the players
-ESP All | Activates "Names", "Distance" and "Box" at once
+Kick Votes Event | Get payback on those trying to vote kick you
+Request Pickup Event | Get payback on those trying to spawn pickups on you
+Alter Wanted Level Event | Get payback on those trying to give/remove your wanted level
+
+## Miscellaneous 
+
+Name | Description
+------------- | -------------
+ESP | 
+	  - "Names" Allows you to see everyones name across the map
+	  - "Distance" Allows you to see how far everyone is from you
+	  - "Heart" Show your love by adding a heart around everyone
+	  - "Box" Adds a box around all the players
+	  - "All" Activates "Names", "Distance" and "Box" at once
 Flash Mod | Show just how fast you are with this stream of wind
 Type As Rockstar | Adds "R*VERIFIED" to your message
 Send Locked Chat Messages | Adds a lock symbol to your message
@@ -215,10 +240,20 @@ Name | Description
 Primary Colour | Adjust the colour of the highlight option and border
 Background colour | Adjust the colour of the background box as well as the Alpha/Transparency
 RGB | Make the menu RGB
-Headers | Change or add your own headers by going to `AppData\Roaming\PopstarDevs\2Take1Menu\scripts\Rimuru\UI\Banners` and adding a .png. resolution doesnt matter but its recommended to use 480x200
+X Position | Alter the horizontal location of the menu
+Y Position | Alter the vertical location of the menu
+Text Size | Alter the size of the font used in the menu
+Headers | Change or add your own headers by going to `AppData\Roaming\PopstarDevs\2Take1Menu\scripts\Rimuru\UI\Banners` and adding a .png there
 Save UI Profile | Save your UI profile which can then be found in "UI Profiles"
 UI Profiles | See all your saved UI Profiles
 Refresh UI Profiles | Refresh "UI Profiles" if your newly saved one isn't showing
+
+### > Hotkey Notifications
+
+Name | Description
+------------- | -------------
+Toggle Notification | Adds notifications for when using a toggle hotkey
+Action Notification | Adds notifications for when using an action hotkey
 
 ### > Player States
 
@@ -231,9 +266,45 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-## Latest Release - v2.0.1
-# Changes
-- fixed script not loading if no banners are installed
-- removed left over testing option
-- at the request of people the main files are now luac
+## Rimurus Menu 2.1.0 
+
+massive shoutout to ghost 
+
+## New Features
+- Added Instantly Exit Vehicle
+- Added Instantly Enter Vehicle
+- Added tiny player (credits to sub1to)
+- Added text size to settings
+- added text size to settings ini
+- Added gif header support
+- Added hotkeys (works same as 2Take1)
+- Added teleports submenu
+- Added teleport to player
+- Added teleport player to me
+- Added teleport peds to player
+- Added teleport vehicles to player
+- Added reduced collision
+- Added vehicle reduced collision
+- Added spike cam
+- Added Net Event Reactions submenu
+- Added vote kick reaction
+- Added pickup reaction
+- Added modify wanted level reaction
+- Added Godmode be gone
+
+## Improvements
+- Headers now save to ui profiles
+- Save settings now includes headers
+- removed render spike cam
+- removed create spike cam
+- alot of improvements from ghost
+- updated to cheese menu 1.6.x 
+- improved rgb xenon
+- moved menu position to menu ui
+- renamed fake invites to invalid invites
+
+## Fixes
+- Fixed fov
+- fixed Garage Vehicles not loading when loading the script in story mode
+- fixed Garage Vehicles not updating 
 
