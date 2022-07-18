@@ -189,16 +189,11 @@ Kick Votes Event | Get payback on those trying to vote kick you
 Request Pickup Event | Get payback on those trying to spawn pickups on you
 Alter Wanted Level Event | Get payback on those trying to give/remove your wanted level
 
+
 ## Miscellaneous 
 
 Name | Description
 ------------- | -------------
-ESP | 
-	  - "Names" Allows you to see everyones name across the map
-	  - "Distance" Allows you to see how far everyone is from you
-	  - "Heart" Show your love by adding a heart around everyone
-	  - "Box" Adds a box around all the players
-	  - "All" Activates "Names", "Distance" and "Box" at once
 Flash Mod | Show just how fast you are with this stream of wind
 Type As Rockstar | Adds "R*VERIFIED" to your message
 Send Locked Chat Messages | Adds a lock symbol to your message
@@ -209,6 +204,15 @@ Remove Wings | Does the opposite of the one above
 Place SpikeCam | setup your own CCTV with these handy cameras
 Render SpikeCam | Lock your camera to its current location
 Party Traffic Lights | Should I stay or should I go now? 
+ ESP | 
+	  - "Names" Allows you to see everyones name across the map
+	  - "Distance" Allows you to see how far everyone is from you
+	  - "Heart" Show your love by adding a heart around everyone
+	  - "Box" Adds a box around all the players
+	  - "All" Activates "Names", "Distance" and "Box" at once
+
+
+
 
 ### > Train
 
