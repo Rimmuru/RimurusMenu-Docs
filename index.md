@@ -204,15 +204,7 @@ Remove Wings | Does the opposite of the one above
 Place SpikeCam | setup your own CCTV with these handy cameras
 Render SpikeCam | Lock your camera to its current location
 Party Traffic Lights | Should I stay or should I go now? 
- ESP | 
-	  - "Names" Allows you to see everyones name across the map
-	  - "Distance" Allows you to see how far everyone is from you
-	  - "Heart" Show your love by adding a heart around everyone
-	  - "Box" Adds a box around all the players
-	  - "All" Activates "Names", "Distance" and "Box" at once
-
-
-
+ESP | Well its esp
 
 ### > Train
 
@@ -270,45 +262,10 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-## Rimurus Menu 2.1.0 
-
-massive shoutout to ghost 
-
-## New Features
-- Added Instantly Exit Vehicle
-- Added Instantly Enter Vehicle
-- Added tiny player (credits to sub1to)
-- Added text size to settings
-- added text size to settings ini
-- Added gif header support
-- Added hotkeys (works same as 2Take1)
-- Added teleports submenu
-- Added teleport to player
-- Added teleport player to me
-- Added teleport peds to player
-- Added teleport vehicles to player
-- Added reduced collision
-- Added vehicle reduced collision
-- Added spike cam
-- Added Net Event Reactions submenu
-- Added vote kick reaction
-- Added pickup reaction
-- Added modify wanted level reaction
-- Added Godmode be gone
-
-## Improvements
-- Headers now save to ui profiles
-- Save settings now includes headers
-- removed render spike cam
-- removed create spike cam
-- alot of improvements from ghost
-- updated to cheese menu 1.6.x 
-- improved rgb xenon
-- moved menu position to menu ui
-- renamed fake invites to invalid invites
-
-## Fixes
-- Fixed fov
-- fixed Garage Vehicles not loading when loading the script in story mode
-- fixed Garage Vehicles not updating 
-
+## Rimurus Menu v2.1.2
+Next major update after dlc release
+<br>
+Improvements <br>
+improved type security <br>
+slight improvement to xenon rgb <br>
+improved Vehicle Reduced Collision
