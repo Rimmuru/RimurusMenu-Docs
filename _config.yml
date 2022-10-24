@@ -1,4 +1,5 @@
-site_name: Rimurus Docs
+title: Rimurus Docs
+description: Documentation for Rimurus menu script
 post_search: true
 theme: jekyll-theme-slate
 github:
