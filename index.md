@@ -1,9 +1,10 @@
-Rimurus Menu is a popular script for 2Take1Menu written in lua <br>
-Rimurus Menu is the only publicly released 2take1 script that has its own custom user interface
+Rimurus Menu is built upon the [Cheese UI Framework](https://github.com/GhustOne/CheeseMenu) for the 2Take1 Menu api
 <br>
 
 ## Preview
-[![GTA5-p-Jr-GDC1q-Oa.png](https://i.postimg.cc/5N5VkfXD/GTA5-p-Jr-GDC1q-Oa.png)](https://postimg.cc/crJ2vyMc)<br>
+[![GTA5-p-Jr-GDC1q-Oa.png](https://i.postimg.cc/5N5VkfXD/GTA5-p-Jr-GDC1q-Oa.png)](https://postimg.cc/crJ2vyMc)
+<br>
+
 ## Player
 Name | Description
 ------------- | -------------
