@@ -6,6 +6,7 @@ Rimurus Menu is built upon the [Cheese UI Framework](https://github.com/GhustOne
 <br>
 
 ## Player
+
 Name | Description
 ------------- | -------------
 Visions | Sub menu containing 700+ different types of filters for GTA
