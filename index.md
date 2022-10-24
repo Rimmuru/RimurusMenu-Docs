@@ -3,9 +3,8 @@ Rimurus Menu is the only publicly released 2take1 script that has its own custom
 <br>
 
 ## Preview
-[![GTA5-YKy-Ep0-GROr.png](https://i.postimg.cc/dtxjFpyM/GTA5-YKy-Ep0-GROr.png)](https://postimg.cc/hfVdbCsM)<br>
+[![GTA5-p-Jr-GDC1q-Oa.png](https://i.postimg.cc/5N5VkfXD/GTA5-p-Jr-GDC1q-Oa.png)](https://postimg.cc/crJ2vyMc)<br>
 ## Player
-
 Name | Description
 ------------- | -------------
 Visions | Sub menu containing 700+ different types of filters for GTA
@@ -217,12 +216,6 @@ Alter Wanted Level Event | Get payback on those trying to give/remove your wante
 
 Name | Description
 ------------- | -------------
-ESP | 
-	  - "Names" Allows you to see everyones name across the map
-	  - "Distance" Allows you to see how far everyone is from you
-	  - "Heart" Show your love by adding a heart around everyone
-	  - "Box" Adds a box around all the players
-	  - "All" Activates "Names", "Distance" and "Box" at once
 Flash Mod | Show just how fast you are with this stream of wind
 Type As Rockstar | Adds "R*VERIFIED" to your message
 Send Locked Chat Messages | Adds a lock symbol to your message
@@ -317,42 +310,18 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-# Rimurus Menu 2.5.0
-thanks proddy ghost and dislection for the help
-
-if you would like your script added to the repo pm me or Caru#1766, 
-the repository easily gives you access to public lua scripts
+# Rimurus Menu 2.9.0
 
 # New Features
-- Added script repository list
-- Added repository downloader
-- Added Footer position based on background
-- Added Feature Spacing
-- Added Border
-- Added player info
-- Added hex vehicle colour 
-- Added object spawner preview
-- Added ped spawner preview
-- Added rank up
-- Added Spawn Ped By Name
-- Added notifi for loading modded colour 
+- added filter objects
+- spawned entities:
+    - added scroll sensitivity 
+- added world:
+    - added weather: -credit sub1to
+        - added a crap load of modifiers
 
-# Improvements
-- Reduced the amount of globals :)
-- Updated Force Into Loading Screen
-- improved vehicle top speed
-- improved text size
-- improved Damage Multiplier
-- improved Steam Jet Lobby
-- improved Water Jet Lobby
-- improved Fire Jet Lobby
-- improved Garage Bypass
-- Net Event Reaction renamed to moderations
-- rewrote Save Current Vehicle Colour (format changed im sorry but its for the better)
-
-# Fixes
-- Fixed vehicle godmode spamming notifies 
-- Fixed rp drop
-- Fixed heat vision
-- Fixed night vision
-- Fixed Melee Damage Multiplier
+# Changes
+- fixed fonts loading
+- fixed issues when no menu settings is present
+- fixed footer text not using menus font
+- improved 2k money drop
