@@ -1,0 +1,5 @@
+site_name: Rimurus Docs
+post_search: true
+theme: jekyll-theme-slate
+github:
+  is_project_page: false
