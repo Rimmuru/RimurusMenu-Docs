@@ -1,7 +1,7 @@
 title: Rimurus Docs
 description: Documentation for Rimurus menu script
 post_search: true
-theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/architect@v0.2.0
 show_downloads: true
 github:
   is_project_page: false
