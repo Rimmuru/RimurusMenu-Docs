@@ -1,6 +1,10 @@
 title: Rimurus Docs
 description: Documentation for Rimurus menu script
 post_search: true
-theme: jekyll-theme-slate
+theme: pages-themes/architect@v0.2.0
+show_downloads: true
 github:
   is_project_page: false
+  zip_url: http://example.com/download.zip
+plugins:
+- jekyll-remote-theme
