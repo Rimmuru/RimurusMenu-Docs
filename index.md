@@ -78,7 +78,6 @@ Script Features | Use features for other players, from a script, from the reposi
 Name | Description
 ------------- | -------------
 Give Vehicle Godmode | Gives the targets car godmode
-Gift Vehicle | Gift cars to friends. Not currently possibly using 2t1's spawner
 
 ### >> Malicious Options
 
@@ -89,6 +88,7 @@ Script Kick | Kicks the player using an SE
 Next Gen Crash | Uses an invalid model to crash the target
 Sound Crash | Is it loud? Is it annoying? It's both! 
 Task Crash | Crashes the target for getting out of the car wrong
+Remove for cheating | remove a player from the lobby and announce to lobby of them cheating
 
 ### >> Trolling Options
 
@@ -272,6 +272,7 @@ Save Settings | Save current Menu UI settings
 Controller Support | Allows Controller Support for the menu
 Embed Scripts | Use 2t1 with through Rimurus Menu
 Max Options | Adjust how many options are shown at once 
+Info Window Pos | Adjust the position of the info windows
 
 ### > Menu UI
 
@@ -312,18 +313,26 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-# Rimurus Menu 2.9.0
+# Rimurus Menu 2.10.0
+join the discord to test out new features before everyone else
 
 # New Features
-- added filter objects
-- spawned entities:
-    - added scroll sensitivity 
-- added world:
-    - added weather: -credit sub1to
-        - added a crap load of modifiers
+- added remove player for cheating (thanks decco for idea)
+- added ability to change controller binds
+- added controller key for setting hotkeys (LB)
+- added gradient scrollbar
+- added gradient right to settings
+- added gradient right to ui profiles
+- added gradient footer
+- added gradient header
+- (re)added esp box
 
 # Changes
-- fixed fonts loading
-- fixed issues when no menu settings is present
-- fixed footer text not using menus font
-- improved 2k money drop
+- removed gift vehicle
+- removed Refresh UI Profiles
+- removed ped/animal model changer (depreciated)
+- renamed primary colour to gradient left
+- reworked settings
+- player info window uses uis font
+- fixed the last of the footer issues
+- fixed drive train
