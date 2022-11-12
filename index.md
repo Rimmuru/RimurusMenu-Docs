@@ -313,26 +313,25 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-# Rimurus Menu 2.10.0
-join the discord to test out new features before everyone else
+# Rimurus Menu 2.11.0
+join the discord for early releases and to share custom themes
 
 # New Features
-- added remove player for cheating (thanks decco for idea)
-- added ability to change controller binds
-- added controller key for setting hotkeys (LB)
-- added gradient scrollbar
-- added gradient right to settings
-- added gradient right to ui profiles
-- added gradient footer
-- added gradient header
-- (re)added esp box
+- added copy player to spoof profile
+- added session size limit
+- added spectator limit
+- added no target (peds ignore you)
+- added esp colour setting
+- added entity esp
+- added folder support to modded vehicle spawner
+- added report myself to moderations
+- added kinetic emp to trolling
 
 # Changes
-- removed gift vehicle
-- removed Refresh UI Profiles
-- removed ped/animal model changer (depreciated)
-- renamed primary colour to gradient left
-- reworked settings
-- player info window uses uis font
-- fixed the last of the footer issues
-- fixed drive train
+- moved train options to world
+- moved editor to spawner
+- moved spawned entities to spawner
+- moved party traffic lights to world
+- completely rewrote moderations
+- fixed remove for cheating
+- credits now show what theyre credit for 
