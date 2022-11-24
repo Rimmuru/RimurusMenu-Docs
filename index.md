@@ -313,25 +313,31 @@ Player Joined VIP | Shows if a player has joined a CEO
 <br>
 <br>
 
-# Rimurus Menu 2.11.0
-join the discord for early releases and to share custom themes
+# Rimurus Menu 2.12.0
+join the discord for cool stuff
 
 # New Features
-- added copy player to spoof profile
-- added session size limit
-- added spectator limit
-- added no target (peds ignore you)
-- added esp colour setting
-- added entity esp
-- added folder support to modded vehicle spawner
-- added report myself to moderations
-- added kinetic emp to trolling
+- added Draw Crosshair (shows singleplayer crosshair)
+- added option saving (player, weapon)
+- added copy scid
+- added profiles
+
 
 # Changes
-- moved train options to world
-- moved editor to spawner
-- moved spawned entities to spawner
-- moved party traffic lights to world
-- completely rewrote moderations
-- fixed remove for cheating
-- credits now show what theyre credit for 
+- improved garage bypass
+- updated Potatos Revenge
+- removed Meanie Potato
+- field of view is now autoaction_value_i
+- some internal refactoring 
+- depreciated menuSaveToggles 
+- background alpha is nolonger 0 when no menuSettings is present
+- updated gltw
+- fixed Spectator Limit
+- fixed Session Size Limit
+- fixed changing border not scaling
+- fixed a bunch of player option issues
+- cleaned up weapon options
+- Vehicle Reduced Collision > Reduced Vehicle Collision     
+- improved Reduced Vehicle Collision
+- improved ped aimbot
+- repo downloader is now multi threaded
