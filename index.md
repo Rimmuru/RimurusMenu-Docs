@@ -2,7 +2,7 @@ Rimurus Menu is built upon the [Cheese UI Framework](https://github.com/GhustOne
 <br>
 
 ## Preview
-[![GTA5-p-Jr-GDC1q-Oa.png](https://i.postimg.cc/5N5VkfXD/GTA5-p-Jr-GDC1q-Oa.png)](https://postimg.cc/crJ2vyMc)
+[![RimurusMenu.png](https://i.postimg.cc/vZZKGYgs/Rimurus-Menu.png)](https://postimg.cc/7fj9Vyns)
 <br>
 
 ## Player
@@ -22,9 +22,12 @@ Reduced Collision | Disables collisions for vehicles and some other objects
 
 Name | Description
 ------------- | -------------
+Object Weapons | sub menu containing object weapons that are added by the included .oiv
+Damage Multiplier | Increase the damage you do to people, vehicles and everything else
+Melee Damage Multiplier | Increases the melee damage you do to people, vehicles and everything else
 Silent Aimbot Ped | Uses rapid fire and aimbot to kill any peds nearby
 Silent Aimbot Player | Uses rapid fire and aimbot to kill and players nearby
-Object Weapons | sub menu containing object weapons that are added by the included .oiv
+Draw Crosshair | Keeps a constant crosshair on the screen
 Cartoon Gun | Shooting effect that produces cartoon like particles
 Dildo Gun | Spawns Amanda's best friend when shot
 Ped Gun | Spawns a ped when shot
@@ -36,8 +39,6 @@ Dust Gun | Will cause a dust effect when shot at a surface
 Money Gun | Make it rain the fun way
 Teleport Gun | Teleports you to any thing shot at
 Rapid Fire | just overall annihilation 
-Damage Multiplier | Increase the damage you do to people, vehicles and everything else
-Melee Damage Multiplier | Increases the melee damage you do to people, vehicles and everything else
 
 ## Vehicle
 
@@ -50,11 +51,11 @@ Garage Vehicles | Sub menu containing all the vehicles stored in your garages
 Vehicle Godmode | Undetected invincibilty for your cars
 Vehicle Opacity | Change your vehicles opacity. 0% will be fully invisible
 Vehicle Gravity | Adjusts the way gravity effects your car. Higher = more gravity
-Modify Top Speed | Break R* speed barrier 
+Modify Top Speed | Break R* speed barrier or drop it to 10 and experience the joys of true LA traffic
 Dirt Level | Make your car dirty or make it clean, choice is yours
 Destroy Personal Vehicle | Destroys your current personal vehicle (why?)
 TP Into Personal Vehicle | Teleports you directly into the front seat of your personal vehicle
-Garage Bypass | Allows you to save a car spawned via the menu. (Head over to a garage with an empty space, park in front of the garage door in the car you have spanwed in and activate this option)
+Garage Bypass | Allows you to save a car spawned via the menu. (Head over to a garage with an empty space, park in front of the garage door in the car you have spawned in and activate this option)
 GTA4 Neons | Gives your car the bright ass neons that could be done on GTA 4
 RGB Neons | Adds neons and cycles an RGB effect 
 RGB Xenon | Gives your headlights a rainbow effect
@@ -65,6 +66,12 @@ Vehicle Reduced Collision | Remove collisions with vehicles whilst driving
 Model Swap | changes the model of the current vehicle
 
 ## Online 
+
+Name | Description
+------------- | -------------
+Session Size Limit | limit the session to a certain amount of players
+Spectator Limit | limit how many people can spectate using SCTV
+
 ### > Players
 
 Name | Description
@@ -77,18 +84,19 @@ Script Features | Use features for other players, from a script, from the reposi
 
 Name | Description
 ------------- | -------------
-Give Vehicle Godmode | Gives the targets car godmode
+Give Vehicle Godmode | Gives the targets vehicle godmode
 
 ### >> Malicious Options
 
 Name | Description
 ------------- | -------------
 Force Remove | Removes the intended player from the lobby with a little oomf 
+Remove for cheating | remove a player from the lobby and announce to lobby of them cheating
 Script Kick | Kicks the player using an SE
 Next Gen Crash | Uses an invalid model to crash the target
 Sound Crash | Is it loud? Is it annoying? It's both! 
-Task Crash | Crashes the target for getting out of the car wrong
-Remove for cheating | remove a player from the lobby and announce to lobby of them cheating
+Script Crash | Throw the holy scripts at them and watch them suffer
+Potatos Revenge | The Irish have returned with vengence 
 
 ### >> Trolling Options
 
@@ -109,7 +117,6 @@ Cash Banked | For when you feel bad for yoinking their pennies
 Name | Description
 ------------- | -------------
 Teleport To Player | Go say "Hi" :)
-Teleport To Player | Say "Hi" but forcefully :)
 Teleport Peds To Player | Give them some new friends, they're playing GTA so they most likely need a friend to talk to :(
 Teleport Vehicles To Player | "Give a Man a car, he'll drive for a day. Give a Man all the cars, he'll die from suffocation and never have to drive again" :)
 
@@ -137,6 +144,9 @@ Name | Description
 Give Bounty | Sets a bounty of 10k on the target
 Give Wanted | Change the wanted level for the target
 Trick or treat | Works great if you just hold it down :)
+Send Mugger | Contacts Lamar and sets up a mugging on your target
+Copy player to spoof profile | Add the targets details to your 2Take1 "Player Spoofer"
+Copy Scid | Copies the targets scid to your clipboard 
 
 #### >>> Drops
 
@@ -175,7 +185,7 @@ Force Lobby Into Loading Screen | Forces all targets into an infinite loading sc
 Force Lobby Into Cutscene | Forces all players into the casino heist cutscene 
 Destroy Lobbies Personal Vehicles | Destroys all targets current personal vehicles
 Fake Money Bag Drop Lobby | Ultra real undetected 2025 money drop for everyone
-Fake Money Drop Lobby | For when you dont want to anyone a full bag of money
+Fake Money Drop Lobby | For when you dont want to give anyone a full bag of money
 Water Jet Lobby | Spawns a jet of water on all the players
 Fire Jet Lobby | Spawns a jet of fire on all the players
 Steam Jet Lobby | Spawns a steam of steam on all the players
@@ -213,12 +223,16 @@ Name | Description
 Kick Votes Event | Get payback on those trying to vote kick you
 Request Pickup Event | Get payback on those trying to spawn pickups on you
 Alter Wanted Level Event | Get payback on those trying to give/remove your wanted level
+Report Myself | Insta kick those poor souls detected for RAC
+Clear Task | Kick players who tried to clear your tasks
 
 ## Miscellaneous 
 
 Name | Description
 ------------- | -------------
+ESP | Sub menu for options relating to ESP for players or entities
 Flash Mod | Show just how fast you are with this stream of wind
+Bail to SinglePlayer | Force leave gta online, best used if stuck joining sessions or frozen
 Type As Rockstar | Adds "R*VERIFIED" to your message
 Send Locked Chat Messages | Adds a lock symbol to your message
 Recon Drone | For when you want to spy on the players
@@ -226,7 +240,40 @@ Black Parade | Oh your emo? name every hair dye
 Give Wings | Adds wings to your character 
 Remove Wings | Does the opposite of the one above
 Spike Cam| setup your own CCTV with these handy cameras
-Party Traffic Lights | Should I stay or should I go now? 
+Respawn at death coords | when you die, it will spawn you back at the point you died
+No Target | Prevents Peds targeting you
+Phone Requests | Submenu of easy to use options that are normally used by calling certain characters
+
+## Spawner
+
+### > Editor
+
+Name | Description
+------------- | -------------
+Objects | Spawn all types of objects on
+World Objects | Spawns all types of world objects
+Filter Objects | Add a tag to search for certain objects
+Filtered Objects | A list of objects with the current search from "Filter Objects"
+Spawn Objects By Name | Spawn any object if you know the name (e.g. xs_prop_track_slowdown)
+Props | You guessed it! Spawns all types of props
+Spawn Objects By Name | Input your desired prop and have it spawn
+Spawn Ped By Name | Input your desired ped and have it spawn (e.g. A_F_Y_Decuwu)
+Peds | Spawn Ped Models
+Animals | Spawn Animal Models
+
+### > Spawned Entities
+
+Name | Description
+------------- | -------------
+Spawned Objects | Get a list of all Objects you have spawned using Rimurus Menu
+Spawned Peds | Get a list of all peds you have spawned using Rimurus Menu
+
+## World
+
+Name | Description
+------------- | -------------
+Weather | Ginormous list of weather options to adjust, best of luck
+Party Traffic Lights | Should I stay or should I go now?
 
 ### > Train
 
@@ -240,23 +287,12 @@ De-Rail Train | Looks like you hit a pebble
 Delete Train | Remove the current train
 Delete All Trains | Remove all trains
 
-## Editor
-
-Name | Description
-------------- | -------------
-Objects | Spawn all types of objects on
-World Objects | Spawns all types of world objects
-Props | You guessed it! Spawns all types of props
-Spawn Objects By Name | Input your desired prop and have it spawn
-Spawn Ped By Name | Input your desired ped and have it spawn
-Peds | Spawn Ped Models
-Animals | Spawn Animal Models
-
 ## Script Repository 
 
 Name | Description
 ------------- | -------------
 Script Repository | Find other luas uploaded to Rimurus menu here, (they auto update ;)
+Femboy.Lua | "best lua in the repo, non biased" - Rimuru xox
 
 ## Script Features 
 
@@ -269,29 +305,29 @@ Script Features | Use the features of the script you selected in the repository
 Name | Description
 ------------- | -------------
 Save Settings | Save current Menu UI settings
+Save Profile | Save your current enabled features (not available for all features)
+Profiles | Find your saved profiles
 Controller Support | Allows Controller Support for the menu
-Embed Scripts | Use 2t1 with through Rimurus Menu
-Max Options | Adjust how many options are shown at once 
-Info Window Pos | Adjust the position of the info windows
+PlayerInfo Window X | Adjust the PlayerInfo Window that shows when hovering over a user in the online list
+PlayerInfo Window Y | Adjust the PlayerInfo Window that shows when hovering over a user in the online list but up and down
 
 ### > Menu UI
 
 Name | Description
 ------------- | -------------
-Primary Colour | Adjust the colour of the highlight option and border
-Background Colour | Adjust the colour of the background box as well as the Alpha/Transparency
-Text Colour | Adjust the colour of the text
+Save Ui Profile | Save the ui profile 
+UI Profiles | Find your saved ui profiles 
+Colours | Submenu to edit the colours of your Menu
 RGB | Make the menu RGB
-Footer position based on background | Set the background alpha to 0 for this to work, the footer will now adjust to how many options are shown
+Headers | Change or add your own headers by going to `%appdata%\PopstarDevs\2Take1Menu\scripts\Rimuru\UI\Banners` and adding a .png with the resolution 480x200
 X Position | Alter the horizontal location of the menu
 Y Position | Alter the vertical location of the menu
+Footer position based on background | Set the background alpha to 0 for this to work, the footer will now adjust to how many options are shown
 Feature Spacing | Adjust the spacing between each feature in the menu
 Border | Adjust the border size around the menu
+Fonts | Add your own fonts to be used in rimurus menu `%appdata%\PopstarDevs\2Take1Menu\scripts\Rimuru\UI\Fonts`
 Text Size | Alter the size of the font used in the menu
-Headers | Change or add your own headers by going to `%appdata%\PopstarDevs\2Take1Menu\scripts\Rimuru\UI\Banners` and adding a .png with the resolution 480x200
-Save UI Profile | Save your UI profile which can then be found in "UI Profiles"
-UI Profiles | See all your saved UI Profiles
-Refresh UI Profiles | Refresh "UI Profiles" if your newly saved one isn't showing
+
 
 ### > Hotkey Notifications
 
@@ -306,7 +342,7 @@ Name | Description
 ------------- | -------------
 Player Typing | Shows if a player is typing
 Player Paused | Shows if a player has paused 
-Player Joined VIP | Shows if a player has joined a CEO
+Player Joined CEO | Shows if a player has joined a CEO
 
 
 
@@ -339,5 +375,6 @@ join the discord for cool stuff
 - cleaned up weapon options
 - Vehicle Reduced Collision > Reduced Vehicle Collision     
 - improved Reduced Vehicle Collision
+- repainted your walls for you <3
 - improved ped aimbot
 - repo downloader is now multi threaded
